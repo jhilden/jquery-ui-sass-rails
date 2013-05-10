@@ -39,7 +39,7 @@ task :convert_to_scss do
         "@import 'themes/jquery.ui.base';\n"
 
       elsif source_file.end_with?('jquery.ui.all.css.erb') || source_file.end_with?('jquery.ui.base.css.erb')
-        match.gsub!(' *= require ', '@import ')
+        match.gsub!(/ \*= require ([a-z\.]+)/) { "@import '#{$1}';" }
         match.gsub!(/\/\*| \*\//, '')
 
       else

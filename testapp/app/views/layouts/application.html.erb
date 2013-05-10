@@ -2,7 +2,11 @@
 <html>
 <head>
   <title>Testapp</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <% if action_name == 'test1' %>
+    <%= stylesheet_link_tag "test1", :media => "all" %>
+  <% else %>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+  <% end %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>

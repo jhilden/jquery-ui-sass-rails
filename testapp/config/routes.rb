@@ -1,6 +1,8 @@
 Testapp::Application.routes.draw do
   root :to => "home#index"
 
+  get "/test1" => "home#test1"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
