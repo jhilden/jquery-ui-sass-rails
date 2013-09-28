@@ -92,3 +92,7 @@ As long as I don't break any important APIs I will try I try to stick to the ver
 This gem is only a complement to the `jquery-ui-rails` gem and wouldn't be possible without it's author [Jo Liss](https://github.com/joliss) and the other [contributors](https://github.com/joliss/jquery-ui-rails/contributors).
 
 Since this is only a gem repackaging the jQuery UI library, the biggest thanks obviously goes out to the [jQueryUI team](http://jqueryui.com/about/).
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jhilden/jquery-ui-sass-rails/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
