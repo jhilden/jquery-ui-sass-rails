@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "railties", ">= 3.1.0"
   s.add_dependency "jquery-rails"
-  s.add_dependency "jquery-ui-rails", "~> #{Jquery::Ui::Sass::Rails::JQUERY_UI_RAILS_VERSION}"
+  s.add_dependency "jquery-ui-rails", ">= #{Jquery::Ui::Sass::Rails::JQUERY_UI_RAILS_VERSION}"
 
   s.add_development_dependency "json", "~> 1.7"
 
